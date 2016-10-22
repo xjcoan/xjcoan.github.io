@@ -1,0 +1,27 @@
+.jumbotron {
+  margin-top: 75px;
+}
+.jumbotron img {
+  border-radius: 50%;
+  height: 150px;
+  width: auto;
+}
+
+#background {
+  margin-top: 150px;
+  min-height: 300px;
+}
+
+#projects {
+  margin-top: 150px;
+  min-height: 300px;
+}
+
+#contact {
+  margin-top: 150px;
+  min-height: 300px;
+}
+
+#contact img {
+  width: 100px;
+}
