@@ -1,13 +1,148 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL='http://www.xjcoan.com'" />
-    <title>REDIRECT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X J. Coan</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
 
   <body>
-    <p> Refresh this page to be redirected to my actual website, or click the link below.</p>
-    <a href="http://www.xjcoan.com">My Wesbite.</a>
-    
-  </body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#background">Background</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-</html
+    <div class="container text-center">
+      <div class="jumbotron">
+        <img src="images/me.jpg" alt="Just a pic of me" />
+        <h1>X Coan</h1>
+        <hr />
+        <p>
+          I am a college student who currently attends Purdue University in West
+          Lafayette, Indiana. I am currently pursuing a bachelor's degree in
+          Computer and Information Technology at the Purdue Polytechnic Institute.
+        </p>
+        <p>
+          I have a passion for programming and web development in particular.
+          Most recently, I have fallen in love with Ruby on Rails and Node Express.
+        </p>
+      </div>
+    </div>
+
+    <div class="container text-center" id="background">
+      <div class="page-header">
+        <h1>Professional History</h1>
+      </div>
+      <p>
+        I grew up in Michigan City, Indiana, where I attended the local high school.
+        During my Junior year, I worked an internship for the school system IT department,
+        where I set up many of the computer labs for the schools and pushed disk images
+        to computers. I also aided in maintaining server-switch boxes the school's network ran on,
+        which included replacing batteries and electrical connectors, and replacing
+        network cables.
+      </p>
+      <br />
+      <div class="row">
+        <div class="col-sm-9">
+          <p>
+            In the summer of 2016, I took part in the <a href="http://xtern.me/">Xtern</a> Program
+            in Indianapolis, Indiana. Through the Xtern Program, I met 130 other college students who
+            were interested in working in computing fields. Thanks to Xtern, I had an amazing
+            internship with <a href="http://octiv.com/">Octiv</a>.
+          </p>
+          <p>
+            At Octiv, my work was focused around Ruby on Rails and Ember.js. Over
+            I worked extensively with I18N and L10N with YAML files to allow the application
+            to be translated and localized into various languages around the world.
+            Using a chron job, I modified our internal API to automatically purge
+            month-old data from our Redis nosql data cache. I also worked on preventing
+            potential XSS and CSRF attacks.
+          </p>
+          <p>
+            I wrote a blog post about my experience with Xtern and Octiv on the octiv
+            website, which you can view <a href=https://octiv.com/octiv-nation/summer-xtern-octiv/>here</a>.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img src="http://xtern.me/u/2016/02/xtern-gallery-logo.png" alt="The Xtern logo" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center" id="projects">
+      <div class="page-header">
+        <h1>Featured Projects</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-6" style="border-right: 1px solid;">
+          <h2>Local Record <small>data aggregation and visualization</small></h2>
+          <p>
+            A web app written for the 2016 Indianapolis Civic Hackathon, and is still
+            under active development. It is built using Node Express on top of MongoDB.
+            Using the Google Maps API and a GEOJson file recieved via an AJAX
+            call to OpenIndy, the app plots data of crimes onto a map of Indianapolis,
+            allowing for efficient and effective data aggregation and visualization
+            for citizens and lawmakers alike. Local Record recieved second place
+            in the hackathon. Work on local record was done in collaboration with
+            fellow hacker <a href="http://www.akrqt.com/">Aaron Krueger</a>.
+          </p>
+          <small><a href="http://indy-crime-data.herokuapp.com">Live Project Link</a></small>
+        </div>
+        <div class="col-sm-6">
+          <h2>The Neural Network <small>a social network</small></h2>
+          <p>
+            The Neural Network a social media app built using Ruby on Rails as a
+            personal learning project. The end goal for the project is to create
+            a complete web application API that can send data to mobile companion
+            applications. The base website is currently completed and work is in
+            progress to convert the data into a RESTful API for mobile apps.
+          </p>
+          <br />
+          <br />
+          <small><a href="http://github.com/xcoan/socialnetwork">Github Link</a></small>
+        </div>
+      </div>
+      <br />
+      <p>
+        A full list of my personal projects can be viewed on my <a href="http://github.com/xcoan">Github account</a>.
+      </p>
+    </div>
+
+    <div class="container text-center" id="contact">
+      <div class="page-header">
+        <h1>Contact Me</h1>
+      </div>
+      <p>
+        I am available for contact both via email and social networking sites.
+      </p>
+      <br />
+      <h4>Social Media Links:</h4>
+      <div class="row">
+        <div class="col-sm-3">
+          <a href="http://linkedin.com/in/xcoan"><img src="images/linkedin.png" /></a>
+        </div>
+        <div class="col-sm-3">
+          <a href="http://twitter.com/xtheprogrammer"><img src="images/twitter.png" /></a>
+        </div>
+        <div class="col-sm-3">
+          <a href="http://instagram.com/xtheprogrammer"><img src="images/instagram.png" /></a>
+        </div>
+        <div class="col-sm-3">
+          <a href="http://facebook.com/xtheprogrammer"><img src="images/facebook.png" /></a>
+        </div>
+      </div>
+      <p>
+        <a href="mailto:xjcoan@gmail.com?Subject=Hello" target="_top">Send me an email!</a>
+      </p>
+    </div>
+    <br />
+  </body>
+</html>
