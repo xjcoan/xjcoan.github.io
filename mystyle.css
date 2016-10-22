@@ -1,27 +1,87 @@
+body {
+  background: #606c88; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  color:lightgray!important;
+}
+
+p {
+  color: white!important;
+}
+
+h2 {
+  color:lightsteelblue!important;
+}
+
+h2 small {
+  color: silver!important;
+}
+
+
+.navbar {
+  background-color: #2C3E50!important;
+}
+.navbar a {
+  color: white!important;
+}
+
 .jumbotron {
   margin-top: 75px;
-}
+  background: #517fa4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #517fa4 , #243949); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #517fa4 , #243949); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 .jumbotron img {
   border-radius: 50%;
   height: 150px;
   width: auto;
 }
+.jumbotron p {
+  color: white;
+}
+.jumbotron h1 {
+  color: lightgray!important;
+}
 
 #background {
   margin-top: 150px;
   min-height: 300px;
+  background: #4CA1AF;
 }
 
 #projects {
   margin-top: 150px;
   min-height: 300px;
+  background: #005C97; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #005C97 , #363795); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#projects a {
+  color:powderblue!important;
+  text-decoration: underline;
 }
 
 #contact {
+  background: #3a7bd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a7bd5 , #3a6073); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a7bd5 , #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-top: 150px;
   min-height: 300px;
 }
 
 #contact img {
   width: 100px;
+}
+
+#contact h4 {
+  color:ghostwhite!important;
+}
+
+#contact a {
+  color: silver!important;
+  text-decoration: underline;
 }
