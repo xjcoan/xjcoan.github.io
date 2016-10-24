@@ -52,6 +52,11 @@ h2 small {
   background: #4CA1AF;
 }
 
+#background a {
+  text-decoration: underline;
+  color: #4FF8B0!important;
+}
+
 #projects {
   margin-top: 150px;
   min-height: 300px;
