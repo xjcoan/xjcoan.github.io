@@ -48,7 +48,7 @@ h2 small {
 
 #background {
   margin-top: 150px;
-  min-height: 300px;
+  height: auto;
   background: #4CA1AF;
 }
 
@@ -59,10 +59,14 @@ h2 small {
 
 #projects {
   margin-top: 150px;
-  min-height: 300px;
+  height: auto;
   background: #005C97; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #005C97 , #363795); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#projects small {
+  color: white;
 }
 
 #projects a {
@@ -75,7 +79,7 @@ h2 small {
   background: -webkit-linear-gradient(to left, #3a7bd5 , #3a6073); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #3a7bd5 , #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-top: 150px;
-  min-height: 300px;
+  height: auto;
 }
 
 #contact img {
