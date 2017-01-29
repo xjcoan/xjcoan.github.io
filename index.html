@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>X J. Coan</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="mystyle.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-mfizz/font-mfizz.css" />
     <link rel="icon" type="image/png" href="images/xicon.png" />
   </head>
 
-  <body>
+  <body class="text-center" data-spy="scroll" data-target=".navbar">
+
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -21,9 +26,13 @@
           </button>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">X J. Coan</a>
+          </div>
           <ul class="nav navbar-nav">
-            <li><a href="#">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#background">Background</a></li>
+            <li><a href="#languages">Languages</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -31,32 +40,51 @@
       </div>
     </nav>
 
-    <div class="container text-center">
-      <div class="jumbotron content">
-        <img src="images/me.jpg" alt="Just a pic of me" />
-        <h1>X J. Coan</h1>
-        <hr />
+    <div class="container-fluid">
+      <div class="content">
+        <div class="container">
+          <div class="page-header">
+            <img src="images/me.jpg" alt="X's Headshot Image" />
+            <h1>X J. Coan</h1>
+          </div>
+          <p>
+            Student, Programmer, Entrepreneurial Aspirant
+          </p>
+        </div>
+        <br />
+        <br />
+      </div>
+
+      <br />
+      <br />
+
+      <div class="parallax"></div>
+      <br />
+
+      <div class="content" id="about">
+        <br />
+        <div class="page-header">
+          <h2>About Me</h2>
+        </div>
         <p>
-          I am a college student who currently attends Purdue University in West
-          Lafayette, Indiana. I am currently pursuing a bachelor's degree in
-          Organizational Leadership at the Purdue Polytechnic Institute, with a
-          minor in German language studies from the Purdue School of Liberal Arts.
+          I am currently a student at the Polytechnic Institute at Purdue Univerity,
+          pursuing an undergraduate degree in Organization Leadership.  My deep down
+          passion is computer programming, specifically in web development.  I hope
+          to one day pursue a career in informational technology as either a systems
+          analyst, full-stack engineer, or project manager.
         </p>
         <p>
-          My true passion lies in computer programming. I take pride in myself to
-          be on a constant journey to learn more about computing and information
-          technology. My skill set lies primarily withing full stack web development.
-          I am a proud user of Ruby on Rails and Express.js, but am always looking
-          to learn new frameworks.
+          I take pride in myself to be on a constant journey to learn more about
+          computing and information technology. My skill set lies primarily withing
+          full stack web development. I am a proud user of Ruby on Rails and Express.js,
+          but am always looking to learn new frameworks.
         </p>
       </div>
-    </div>
 
-    <div class="container text-center">
       <div class="content" id="background">
         <br />
         <div class="page-header">
-          <h1>Professional History</h1>
+          <h2>My Background</h2>
         </div>
         <p>
           I grew up in Michigan City, Indiana, where I attended the local high school.
@@ -87,20 +115,97 @@
               I wrote a blog post about my experience with Xtern and Octiv on the octiv
               website, which you can view <a href=https://octiv.com/octiv-nation/summer-xtern-octiv/>here</a>.
             </p>
-            <p>
-              For the upcoming Summer of 2017, I plan on returning to my internship at Octiv,
-              once again through the Xtern Program.
-            </p>
           </div>
           <div class="col-sm-3">
             <img src="http://xtern.me/u/2016/02/xtern-gallery-logo.png" alt="The Xtern logo" />
           </div>
         </div>
+        <p>
+          For the upcoming Summer of 2017, I plan on returning to my internship at Octiv,
+          once again through the Xtern Program.
+        </p>
         <br />
       </div>
-    </div>
 
-    <div class="container text-center">
+      <div class="content" id="languages">
+        <br />
+        <div class="page-header">
+          <h2>Language Familiarity</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <i class="fa fa-html5" aria-hidden="true"></i>
+          </div>
+          <div class="col-sm-4">
+            <i class="fa fa-css3" aria-hidden="true"></i>
+          </div>
+          <div class="col-sm-4">
+            <i class="icon-nodejs"></i>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <p>HTML 5</p>
+          </div>
+          <div class="col-sm-4">
+            <p>CSS 3</p>
+          </div>
+          <div class="col-sm-4">
+            <p>JavaScript/Node JS</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <i class="icon-ruby-on-rails"></i>
+          </div>
+          <div class="col-sm-6">
+            <i class="icon-java"></i>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <p>Ruby On Rails</p>
+          </div>
+          <div class="col-sm-6">
+            <p>Java</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <i class="icon-database"></i>
+          </div>
+          <div class="col-sm-4">
+            <i class="icon-mongodb"></i>
+          </div>
+          <div class="col-sm-4">
+            <i class="icon-postgres"></i>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <p>
+              Database Management
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p>
+              MongoDB
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p>
+              Postgresql
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div class="content" id="projects">
         <br />
         <div class="page-header">
@@ -148,9 +253,7 @@
         </p>
         <br />
       </div>
-    </div>
 
-    <div class="container text-center">
       <div class="content" id="contact">
         <br />
         <div class="page-header">
@@ -162,25 +265,32 @@
         <br />
         <h4>Social Media Links:</h4>
         <div class="row">
-          <div class="col-sm-3">
-            <a href="http://linkedin.com/in/xcoan"><img src="images/linkedin.png" /></a>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-2">
+            <a href="http://linkedin.com/in/xcoan"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
           </div>
-          <div class="col-sm-3">
-            <a href="http://twitter.com/xtheprogrammer"><img src="images/twitter.png" /></a>
+          <div class="col-sm-2">
+            <a href="http://twitter.com/xtheprogrammer"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
           </div>
-          <div class="col-sm-3">
-            <a href="http://instagram.com/xtheprogrammer"><img src="images/instagram.png" /></a>
+          <div class="col-sm-2">
+            <a href="http://instagram.com/xtheprogrammer"><i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
-          <div class="col-sm-3">
-            <a href="http://facebook.com/xtheprogrammer"><img src="images/facebook.png" /></a>
+          <div class="col-sm-2">
+            <a href="http://facebook.com/xtheprogrammer"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           </div>
+          <div class="col-sm-2">
+            <a href="http://github.com/xcoan"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-sm-1"></div>
         </div>
-        <p>
-          <a href="mailto:xjcoan@gmail.com?Subject=Hello" target="_top">Send me an email!</a>
-        </p>
+        <br />
+        <p>Send me an email:</p>
+        <a href="mailto:xjcoan@gmail.com?Subject=Hello" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a>
         <br />
       </div>
+
     </div>
-    <br />
+
   </body>
+
 </html>
