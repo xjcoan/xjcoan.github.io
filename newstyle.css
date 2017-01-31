@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: rgb(236, 234, 234);
+  background-color: rgb(236, 234, 234)!important;
 }
 .outer {
   position: absolute;
@@ -97,9 +97,9 @@ hr:after {
   color: red!important;
 }
 
-.bottom i {
+.bottom a i {
   font-size: 3em!important;
 }
-.bottom i:hover {
+.bottom a i:hover {
   color: inherit!important;
 }
