@@ -11,19 +11,39 @@
   <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="font-mfizz/font-mfizz.css" />
   <link rel="icon" type="image/png" href="images/xicon.png" />
+  <script src="menu.js"></script>
 </head>
 
 <body>
 <div class="outer">
   <div class="main">
     <div class="pane">
-      <div class="left">
-        <img src="images/me.jpg" alt="X's Headshot" />
+      <div class="top">
+        <div class="menubutton">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" id="menuicon"></span>
+        </div>
+        <nav id="menu">
+          <ul>
+            <a href="/"><li class="active">Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="history.html"><li>History</li></a>
+            <a href="skills.html"><li>Skills</li></a>
+            <a href="projects.html"><li>Projects</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+          </ul>
+        </nav>
       </div>
-      <div class="right">
-        <h1>X J. Coan</h1>
-        <hr />
-        <h2>Student, Programmer, Entrepreneurial Aspirant</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" id="left">
+            <img src="images/me.jpg" alt="X's Headshot" />
+          </div>
+          <div class="col-md-6">
+            <h1>X J. Coan</h1>
+            <hr />
+            <h2>Student, Programmer, Entrepreneurial Aspirant</h2>
+          </div>
+        </div>
       </div>
       <div class="bottom">
         <div class="leftarrow" id="arrow">

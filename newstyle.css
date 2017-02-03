@@ -59,17 +59,15 @@ hr:after {
 
 .left {
   float: left;
-  margin-left: 20%;
   display: inline;
 }
 
-.left img  {
+.container .row #left img  {
   height: 200px;
 }
 
 .right {
   float: right;
-  margin-right: 10%;
   display: inline;
 }
 
@@ -102,4 +100,22 @@ hr:after {
 }
 .bottom a i:hover {
   color: inherit!important;
+}
+
+.top {
+  top: 0;
+  position: absolute;
+}
+
+.top .glyphicon {
+  font-size: 2em;
+}
+
+#menu {
+  display: none;
+  position:fixed;
+}
+
+#menu ul {
+  list-style: none;
 }

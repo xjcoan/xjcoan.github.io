@@ -11,32 +11,50 @@
   <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="font-mfizz/font-mfizz.css" />
   <link rel="icon" type="image/png" href="images/xicon.png" />
+  <script src="menu.js"></script>
 </head>
 
 <body>
 <div class="outer">
   <div class="main">
     <div class="pane">
-      <h1>About Me</h1>
-      <hr />
-      <p>
-        I am currently a student at the Polytechnic Institute at Purdue Univerity,
-        pursuing an undergraduate degree in Organization Leadership.  My deep down
-        passion is computer programming, specifically in web development.  I hope
-        to one day pursue a career in informational technology as either a systems
-        analyst, full-stack engineer, or project manager.
-      </p>
-      <p>
-        I am on a constant journey to learn more about
-        computing and information technology. My skill set lies primarily withing
-        full stack web development. I am a proud user of Ruby on Rails and Express.js,
-        but am always looking to learn new frameworks.
-      </p>
-      <p>
-        My focus is on functionality at every level. From back-end server
-        architecture to front end user experience, I believe all components
-        of a successful software project are vital for completion.
-      </p>
+      <div class="top">
+        <div class="menubutton">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" id="menuicon"></span>
+        </div>
+        <nav id="menu">
+          <ul>
+            <a href="/"><li>Home</li></a>
+            <a href="about.html"><li class="active">About</li></a>
+            <a href="history.html"><li>History</li></a>
+            <a href="skills.html"><li>Skills</li></a>
+            <a href="projects.html"><li>Projects</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+        <h1>About Me</h1>
+        <hr />
+        <p>
+          I am currently a student at the Polytechnic Institute at Purdue Univerity,
+          pursuing an undergraduate degree in Organization Leadership.  My deep down
+          passion is computer programming, specifically in web development.  I hope
+          to one day pursue a career in informational technology as either a systems
+          analyst, full-stack engineer, or project manager.
+        </p>
+        <p>
+          I am on a constant journey to learn more about
+          computing and information technology. My skill set lies primarily withing
+          full stack web development. I am a proud user of Ruby on Rails and Express.js,
+          but am always looking to learn new frameworks.
+        </p>
+        <p>
+          My focus is on functionality at every level. From back-end server
+          architecture to front end user experience, I believe all components
+          of a successful software project are vital for completion.
+        </p>
+      </div>
       <div class="bottom">
         <div class="leftarrow" id="arrow">
           <a href="/"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
