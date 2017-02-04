@@ -1,16 +1,14 @@
 $(function() {
-  var menuVisible = false;
+  var visible = false;
   $('#menuicon').click(function() {
-    if (menuVisible) {
+    if (visible) {
+      $('.glyphicon-remove').toggleClass('glyphicon-remove glyphicon-menu-hamburger');
       $('#menu').css({'display':'none'});
-      menuVisible = false;
+      visible = false;
       return;
     }
+    $('.glyphicon-menu-hamburger').toggleClass('glyphicon-menu-hamburger glyphicon-remove');
     $('#menu').css({'display':'block'});
-    menuVisible = true;
-  });
-  $('#menu').click(function() {
-    $(this).css({'display':'none'});
-    menuVisible = false;
+    visible = true;
   });
 });
