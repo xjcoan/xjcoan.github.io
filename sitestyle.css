@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  color: white!important;
 }
 hr {
   border: 0;
@@ -32,18 +33,6 @@ hr:after {
 #logo {
   height: 100px;
 }
-.top {
-  top: 0;
-  display: table;
-  position: absolute;
-  width: 100%;
-}
-.topcon {
-  margin-bottom: 80px;
-}
-.top a {
-  font-size: 1.25em;
-}
 .page {
   background-image: url('images/Hero-Image.jpg');
   background-size: cover;
@@ -52,19 +41,7 @@ hr:after {
   height: 100%;
   width: 100%;
 }
-.middle {
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.35);
-}
 
-.inner {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100vw;
-}
 h1 {
   color: white!important;
   font-size: 5em!important;
@@ -97,4 +74,10 @@ button .navbar-toggle {
 #lnk {
   font-size: 3em;
   color: white;
+}
+#lnk:hover {
+  color: red;
+}
+#navbox {
+  border: 1px solid white;
 }
