@@ -3,10 +3,10 @@ body {
   color: white!important;
 }
 hr {
-  border: 0;
+  overflow: visible; /* For IE */
   height: 30px;
   border-style: solid;
-  border-color: rgba(0, 0, 0, 0.35);
+  border-color: white;
   border-width: 1px 0 0 0;
   border-radius: 20px;
 }
@@ -16,19 +16,19 @@ hr:before {
   height: 30px;
   margin-top: -31px;
   border-style: solid;
-  border-color: #8c8c8c;
+  border-color: white;
   border-width: 0 0 1px 0;
   border-radius: 20px;
+  color: white;
 }
 hr:after {
-  color: white;
   content: "\2605";
   display: inline-block;
   position: relative;
   top: -0.7em;
   font-size: 1.5em;
   padding: 0 0.25em;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(129, 129, 129, 0.61);
 }
 #logo {
   height: 100px;
@@ -80,4 +80,10 @@ button .navbar-toggle {
 }
 #navbox {
   border: 1px solid white;
+}
+small {
+  font-size: 1.5em!important;
+}
+.small {
+  margin-bottom: 50px;
 }
