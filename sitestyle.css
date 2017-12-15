@@ -59,7 +59,7 @@ p a:hover {
 .links {
   font-size: 3em!important;
 }
-.links i {
+.links a i#lnk {
   padding-right: 15px;
   padding-left: 15px;
 }
