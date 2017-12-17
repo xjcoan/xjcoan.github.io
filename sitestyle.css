@@ -1,7 +1,7 @@
-body {
+body.body {
   text-align: center;
-  color: white !important;
-	background:#292e3b!important;
+  color: white;
+	background:#292e3b;
 }
 hr {
   overflow: visible;
@@ -10,7 +10,7 @@ hr {
   border-width: 1px 0 0 0;
   border-radius: 20px;
   color: white;
-  border-top: 1px solid black!important;
+  border-top: 1px solid white;
 }
 hr:before {
   display: block;
@@ -30,22 +30,14 @@ hr:after {
   padding: 0 0.25em;
   background-color: transparent;
 }
-.page {
-  top: 0!important;
-  height: 100vh;
-  width: 100vw;
+h1.header {
+  font-size: 5em;
 }
-.page #page {
-  position: relative!important;
+h2.secondHead {
+  font-size: 2em;
 }
-h1 {
-  font-size: 5em!important;
-}
-h2 {
-  font-size: 2em!important;
-}
-p {
-  font-size: 2em!important;
+p.mainContent {
+  font-size: 2em;
 }
 p a {
   color: rgb(54, 219, 185);
@@ -53,11 +45,11 @@ p a {
 p a:hover {
   color: rgb(46, 172, 154);
 }
-.secondContent {
-  font-size: 1.75em!important;
+p.secondContent {
+  font-size: 1.75em;
 }
-.links {
-  font-size: 3em!important;
+p.links {
+  font-size: 3em;
 }
 .links a i#lnk {
   padding-right: 15px;
@@ -78,14 +70,13 @@ p a:hover {
   position: relative;
 }
 canvas{
-  height: 100vh;
-  width: 100vw;
-  top:0!important;
-  left:0!important;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
   position: absolute;
-  z-index: -999999;
+  z-index: 0;
 }
-
 @media (max-width: 767px) {
   #me {
     border-radius: 50%;
