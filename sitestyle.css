@@ -1,24 +1,52 @@
 body.body {
   font-family: 'Sarabun', sans-serif;
   text-align: center;
-  background-color: rgba(212, 208, 208, 0.29);
+  background-color: #454140;
 }
 
+hr {
+  overflow: visible;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  border-top: 1px solid black;
+  color: #563f46;
+}
+
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+  color: #563f46;
+}
+
+hr:after {
+  content: "\2605";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background-color: #8ca3a3;
+  color: #563f46;
+}
 
 #cover {
   width: 98.9vw;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 4px 7px 0 rgba(0, 0, 0, 0.24);
   position: relative;
   display: block;
-}
-
-
-#cover {
-  color: #454140;
+  color: #484f4f;
+  background-color: #8ca3a3;
 }
 
 #cover p a {
-  color: #c1502e;
+  color: #bd5734;
 }
 
 .pane {
@@ -48,59 +76,13 @@ i {
   font-size: 2.5em;
 }
 
-.paragraph {
-  overflow: scroll;
-}
-
-.pane br {
-  line-height: 100px;
-}
-
-.section-left {
-  float: left;
-  display: inline-block;
-  width: 50%;
-}
-
-.section-left p i {
-  color: #587e76;
-}
-
-
-.section-right {
-  float: right;
-  display: inline-block;
-  width: 50%;
-  height: 100%;
-}
-
-br.separator {
-  line-height: 130px;
-}
-
-.footer {
-  width: 100%;
-  bottom: 0;
-}
-
-.container-section {
-  display: inline-block;
+h5#contact {
+  text-decoration: underline;
+  color: #7e4a35;
 }
 
 @media (max-width: 767px) {
   .row.vertical-align {
     display: block;
-  }
-
-  .section-left {
-    float: none;
-    display: block;
-    width: 100%;
-  }
-
-  .section-right {
-    float: none;
-    display: block;
-    width: 100%;
   }
 }
