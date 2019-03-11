@@ -51,7 +51,8 @@ hr:after {
 
 .pane {
   margin-top: 1vh;
-  height: 98vh;
+  min-height: 98vh;
+  overflow: auto;
 }
 
 #cover br {
@@ -85,4 +86,5 @@ h5#contact {
   .row.vertical-align {
     display: block;
   }
+
 }
