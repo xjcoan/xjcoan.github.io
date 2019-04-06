@@ -4,52 +4,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>X J. Coan</title>
     <meta name="description" content="X J's Personal Website">
-    <meta name="keywords" content="HTML,CSS,JavaScript,Developer,Ruby">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Developer">
     <meta name="author" content="X J. Coan">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="sitestyle.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="icon" type="image/png" href="images/whitelogo.png" />
-    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/arrow-logo.png" />
   </head>
 
   <body class="body">
-    <div class="container-fluid fixated pane" id="cover">
-      <div class="row vertical-align content">
-        <div class="col-md-6">
-          <img src="images/funkopop.png" id="funko">
+    <div class="particles" id="particles"></div>
+
+    <div class="container main" id="main">
+      <div class="row vertical-align">
+        <div class="col-sm-6">
+          <img src="images/whitelogo.png" id="me" />
         </div>
-        <br>
-        <div class="col-md-6">
-          <div class="text-bg">
-            <h1 class="display-2">X J Coan</h1>
-            <hr>
-            <h2>Full-Stack Software Engineer</h2>
-            <br>
-            <p>
-              I pride myself in creating high-quality web applications, typically in Ruby, JavaScript,
-              and Java. I'm focused on continuous learning and trying other languages and frameworks.
-            </p>
-            <small>
-              I'm currently employed at <a href="https://getconga.com">Conga</a>, working on the
-              <a href="https://getconga.com/products/document-generation/conga-collaborate/">Collaborate</a>
-              product!
-            </small>
-            <br/>
-            <h5 id="contact">Contact Me:</h5>
-            <p>
-              <a href="http://github.com/xjcoan"><i class="fab fa-github"></i></a>
-              <a href="http://linkedin.com/in/xcoan/"><i class="fab fa-linkedin"></i></a>
-              <a href="https://www.dropbox.com/s/emfw2h5e2x8axqe/XCoanResume.pdf"><i class="fas fa-file"></i></i></a>
-            </p>
-          </div>
-          <br>
+        <div class="col-sm-6">
+          <h1 class="header">XJ Coan</h1>
+          <hr />
+          <p class="mainContent">
+            Hi, my name is X!  I am a fullstack developer who loves the web.
+            I currently work at <a href="https://getconga.com">Conga</a> on their
+            <a href="https://getconga.com/sales-automation-platform/">Collaborate</a>
+            platform.
+          </p>
+          <br />
+          <h2>Contact</h2>
+          <p class="secondContent">
+            <a href="http://github.com/xjcoan"><i class="fab fa-github"></i></a>
+            <a href="http://linkedin.com/in/xcoan/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.dropbox.com/s/emfw2h5e2x8axqe/XCoanResume.pdf"><i class="fas fa-file"></i></i></a>
+          </p>
         </div>
       </div>
     </div>
+    <script src="particles.min.js"></script>
+    <script src="particle-config.js"></script>
   </body>
 </html>
