@@ -47,7 +47,32 @@ p a:hover {
 }
 p.secondContent {
   font-size: 1.75em;
+  position: relative;
 }
+p.secondContent a#github-link {
+  padding-right: 50px;
+}
+p.secondContent a .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+p.secondContent a:hover .tooltiptext {
+  visibility: visible;
+}
+
 #me {
   border-radius: 50%;
   border: 1px solid;
@@ -61,7 +86,7 @@ p.secondContent {
 
 
 i {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 
