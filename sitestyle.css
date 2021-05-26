@@ -100,11 +100,15 @@ canvas {
 }
 
 @media (max-width: 767px) {
-  #me {
-    border-radius: 50%;
-    border: 1px solid;
-    height: 200px;
+
+  p.secondContent :not(:last-child) {
+    padding-right: none;
   }
+
+  p.secondContent a .tooltiptext {
+    display: none;
+  }
+
   .row.vertical-align {
     display: block;
   }
